@@ -1,5 +1,5 @@
 #bg2 {
-    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 2)),
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.5 )),
         url(images/netflixbg.jpg);
     background-size: cover;
     height: 38rem;
@@ -40,12 +40,12 @@
 }
 
 .pt-5 {
-    padding-top: 8rem !important;
+    padding-top: 9rem !important;
 
 }
 h1{
     font-family: fantasy;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 .planrange{
     display: flex;
@@ -57,9 +57,86 @@ h1{
     align-items: center;
     justify-content:center;
 }
-
 .search{
     display: flex;
     align-items: center;
     justify-content:center;
+}
+#drpdbtn2{
+    background-color: #E50914;
+    font-size: larger;
+}
+.navbar{
+    display: flex;
+}
+#navbarform1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btngetstarted{
+    background-color:#E50914 ;
+}
+.para1{
+    font-size: small;
+}
+#drpbtn2{
+    background-color: #E50914;
+}
+.form-control::placeholder {
+    color: white;
+}
+.input-group{
+width: max-content;
+}
+.crvimg2{
+    height: 2rem;
+    width: 100%;
+    background-color: black;
+}
+.bgblack{
+    background-color:black;
+    height: 80%;
+    width: 100%;
+}
+.ingbgdblk{
+    background-color:black;
+    height: 80%;
+    width: 100%;
+}
+
+
+.bgcurve{
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1 )),
+    url(images/Untitled-1\ copy2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 6rem;
+    width: 102%;
+}
+
+.cardtexttop{
+    font-family: sans-serif;
+    font-size: xx-large;
+    color: white;
+    font-weight: bolder;
+}
+#cardname{
+    display: flex;
+    
+}
+.card{
+    background: linear-gradient(#6b1e3e, #220e0f);
+    color: white;
+}
+.custom-card {
+    height: 100%;
+    border-radius: 1.6rem;
+}
+
+.bgforbottom{
+    background-color: black;
+    background-repeat: repeat;
+    height: fit-content;
+    width: 100%;
 }
