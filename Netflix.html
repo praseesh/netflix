@@ -17,19 +17,13 @@
 
 <body style="background-color: #1e1e1e;">
 
-    <div class="container-fluid" id="bg2">
-
-        <header>
-            <div class="align1">
-                <div class="navbar1 col-md-6">
-                    <div>
-                        <img src="images/netflix logo.png" alt="" id="bg">
-                    </div>
-                </div>
-                <!-- bootstrap dropdown -->
-
-                <div id="right-box" class="rightbox2 col-md-6">
-                    <div class="dropdown1 ">
+    <!-- NAVBAR -->
+    <header class="position-relative">
+        <nav class="navbar navbar-expand">
+            <div class="container">
+                <img src="images/netflix logo.png" alt="logo" class="navImg">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedcontent">
+                    <div class="dropdown">
                         <button class="btn btn-outline-light text-white  dropdown-toggle me-2" id="drpbtn" type="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             ㊡ English
@@ -40,117 +34,382 @@
 
                         </ul>
                     </div>
-                    <button type="button" id="drpbtn2" class="btn text-white float-end">Sign In</button>
+                    <button type="button" class="red-btn">Sign In</button>
                 </div>
-                <!-- bootstrap dropdown -->
+            </div>
+        </nav>
+        <!-- NAVBAR -->
+        <!-- TEXT -->
+        <section class="unlimited container h-75 d-flex flex-column align-items-center text-white
+                justify-content-center">
+            <h1 class="unlimited_para">Unlimited movies, TV<br> shows and more</h1>
+            <p class="unlimited_para1">Starts at ₹149. Cancel anytime.</p>
+            <p class="unlimited_para2">Ready to watch? Enter your email to create or restart your membership.</p>
+            <!-- TEXT -->
+            <!-- GET STARTED -->
+            <form class="row g-3 d-flex align-items-center
+                 justify-content-center w-100 w-lg-75">
+                <div class="form-floating col-auto">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@gmail.com">
+                    <label for="floatingInput">Email address</label>
+                </div>
+                <div class="col-auto">
+                    <button type="submit" class="get-started-btn red-btn">Get Started</button>
+                </div>
+            </form>
+
+        </section>
+
+    </header>
+
+
+    <div class="bgforbottom">
+        <div class="bottom_full_section">
+
+            <div class="imgbgdblk col-md-12">
+                <div class="curve  ">
+                    <div class="crvimg">
+                        <img src="images/Untitled-1 copy2.png" class="crvimg2" alt="">
+                    </div>
+                </div>
             </div>
 
-        </header>
+            <!-- First Cards --> <!-- PLANS SECTION -->
 
-        <section>
-            <div class="container-fluid pt-5" id="unlimited">
-                <div class="full_box">
-                    <div class="textarea text-white">
-                        <div class="maintext ">
-                            <h1>Unlimited movies, TV<br> shows and more</h1>
+            <section class="plan_secton py-5 bg-black text-white">
+                <h2 class="selecting_plan" id="planexample">A plan to suit your needs</h2>
 
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-md-4 g-4" id="cardname">
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">PREMIUM</h5>
+                                    <p class="card-text">A cinematic experience with the best picture and audio quality.
+                                    </p>
+                                    <h6 class="card-subtitle mb-2 text-white">₹649/month</h6>
+                                </div>
+                            </div>
                         </div>
-                        <div class="planrange">
-                            <p>Starts at ₹149. Cancel anytime.</p>
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">STANDARD</h5>
+                                    <p class="card-text">All the entertainment you love, in Full HD video quality.</p>
+                                    <h6 class="card-subtitle mb-2 text-white">₹499/month</h6>
+                                </div>
+                            </div>
                         </div>
-                        <div class="readytowatch ">
-                            <p class="para1">Ready to watch? Enter your email to create or restart your membership.</p>
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">BASIC</h5>
+                                    <p class="card-text">A great way to enjoy all your favourite shows and movies on a
+                                        budget.</p>
+                                    <h6 class="card-subtitle mb-2 text-white">₹199/month</h6>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="search">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-md-6">
-                                    <form class="row g-3">
-                                        <div class="col-md-8">
-                                            <input class="form-control form-control-lg bg-transparent" type="search" placeholder="Email address" aria-label="Search">
-                                        </div>
-                                        <div class="col-md-4">
-                                            <button class="btn btn-danger btn-lg" type="button" id="drpdbtn2">Get Started ➤</button>
-                                        </div>
-                                    </form>
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">MOBILE</h5>
+                                    <p class="card-text">A travel-friendly option for your mobile devices.</p>
+                                    <h6 class="card-subtitle mb-2 text-white">₹149/month</h6>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
                 </div>
-        </section>
-        <div class="bgforbottom bg-black">
+            </section>
 
-        <section>
-            <div class="ingbgdblk">
-            <div class="curve pt-4 my-5">
-                <div class="crvimg">
-                    <img src="images/Untitled-1 copy2.png" class="crvimg2" pt-5 alt="">
+
+            <!-- First Cards -->
+
+
+            <!-- Second Cards -->
+            <section class="plan_secton py-5 bg-black text-white">
+                <h2 class="selecting_plan" id="planexample">More reasons to join</h2>
+
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-md-4 g-4" id="cardname">
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Enjoy on your TV</h5>
+                                    <p class="card-text">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+                                    <img src="images/tv.png" alt="" class="tvpng">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Download your shows to watch offline</h5>
+                                    <p class="card-text">Save your favourites easily and always have something to watch.</p>
+                                    <img src="images/dwnld.png" alt="" class="tvpng">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Watch everywhere</h5>
+                                    <p class="card-text">Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.
+                                        budget.</p>
+                                        <img src="images/movie.png" alt="" class="tvpng">
+                                    
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Create profiles for kids</h5>
+                                    <p class="card-text">Send kids on adventures with their favourite characters in a space made just for them — free with your membership.</p>
+                                    <img src="images/msg.png" alt="" class="tvpng">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            </div>
-        </section>
+            </section>
+        <!-- Second Cards -->
 
-                    <!-- PLANS SECTION -->
-        <section>
-            <div class="container">
-                <div class="row row-cols-1 row-cols-md-4 g-4" id="cardname">
-                    <div class="col">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h5 class="card-title">PREMIUM</h5>
-                                <p class="card-text">A cinematic experience with the best picture and audio quality.</p>
-                                <h6 class="card-subtitle mb-2 text-white">₹649/month</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h5 class="card-title">STANDARD</h5>
-                                <p class="card-text">All the entertainment you love, in Full HD video quality.</p>
-                                <h6 class="card-subtitle mb-2 text-white">₹499/month</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h5 class="card-title">BASIC</h5>
-                                <p class="card-text">A great way to enjoy all your favourite shows and movies on a budget.</p>
-                                <h6 class="card-subtitle mb-2 text-white">₹199/month</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h5 class="card-title">MOBILE</h5>
-                                <p class="card-text">A travel-friendly option for your mobile devices.</p>
-                                <h6 class="card-subtitle mb-2 text-white">₹149/month</h6>
-                            </div>
-                        </div>
-                    </div>
+        <section class="faq_section py-5 bg-black text-white">
+            <div class="row col-lg-10">
+                <div class="faq">
+                    <h2 class="textfaq text-center mb-4">Frequently Asked Questions</h2>
                 </div>
-                
-                
-            </div>
+                <!-- accordion -->
+                <div class="accordion_section col-md-12" id="faq_box">
+                    <div class="accordion accordion-flush col" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">What is Netflix?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body ">Netflix is a streaming service that offers a wide
+                                    variety of
+                                    award-winning TV shows, movies, anime, documentaries and more on thousands of
+                                    internet-connected devices.You can watch as much as you want, whenever you want,
+                                    without
+                                    a single ad all for one low monthly price. There's always something new to
+                                    discover,
+                                    and new TV shows and movies are added every week!
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">How much does Netflix cost?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Watch Netflix on your smartphone, tablet, Smart TV,
+                                        laptop, or streaming device, all for one fixed monthly fee. Plans range from
+                                        ₹649 to ₹149 a month. No extra costs, no contracts.
+                                    </div>
+                                </div>
+                            </div>
 
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                            aria-expanded="false" aria-controls="flush-collapseThree">Where can I watch?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Watch anywhere, anytime. Sign in with your Netflix
+                                            account to watch instantly on the web at netflix.com from your personal
+                                            computer or on any internet-connected device that offers the Netflix app,
+                                            including smart TVs, smartphones, tablets, streaming media players and game
+                                            consoles.
 
+                                            You can also download your favourite shows with the iOS, Android, or Windows
+                                            10 app. Use downloads to watch while you're on the go and without an
+                                            internet connection. Take Netflix with you anywhere.
+                                        </div>
+                                    </div>
+                                </div>
 
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingFour">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
+                                                aria-expanded="false" aria-controls="flush-collapseFour">How do I
+                                                cancel?
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">Netflix is flexible. There are no annoying
+                                                contracts and no commitments. You can easily cancel your account online
+                                                in two clicks. There are no cancellation fees – start or stop your
+                                                account anytime.
+                                            </div>
+                                        </div>
+                                    </div>
 
+                                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingFive">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
+                                                    aria-expanded="false" aria-controls="flush-collapseFive">What can I
+                                                    watch on Netflix?
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingFive"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">Netflix has an extensive library of feature
+                                                    films, documentaries, TV shows, anime, award-winning Netflix
+                                                    originals, and more. Watch as much as you want, anytime you want.
+                                                </div>
+                                            </div>
+                                        </div>
 
+                                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="flush-headingSix">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseSix"
+                                                        aria-expanded="false" aria-controls="flush-collapseSix">Is
+                                                        Netflix good for kids? </button>
+                                                </h2>
+                                                <div id="flush-collapseSix" class="accordion-collapse collapse"
+                                                    aria-labelledby="flush-headingSix"
+                                                    data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">The Netflix Kids experience is included
+                                                        in your membership
+                                                        to give parents control while kids enjoy family-friendly TV
+                                                        shows and films in their own space.
+                                                        Kids profiles come with PIN-protected parental controls that let
+                                                        you restrict the
+                                                        maturity rating of content kids can watch and block specific
+                                                        titles you don’t want kids to see.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- accordion -->
 
+                                    <!-- BOTTOM FORM -->
+                                    <p class="unlimited_para2 py-5 text-center">Ready to watch? Enter your email to
+                                        create or restart
+                                        your membership.</p>
+                                    <form class="row g-3 d-flex align-items-center
+                 justify-content-center w-100 w-lg-75">
+                                        <div class="form-floating col-auto">
+                                            <input type="email" class="form-control" id="floatingInput"
+                                                placeholder="name@gmail.com">
+                                            <label for="floatingInput">Email address</label>
+                                        </div>
+                                        <div class="col-auto">
+                                            <button type="submit" class="get-started-btn red-btn">Get Started</button>
+                                        </div>
+                                    </form>
+                                    <!-- BOTTOM FORM -->
 
-
-            </div>
+                                    <!-- BOTTOM TEXT -->
         </section>
+
+        <div class="footerbackground">
+            <footer class="py-5 bg-black text-light  ">
+                <div class="container-fluid" id="cf">
+                    <div>
+                        <p>Questions? Call <a href="#">000-800-919-1694</a></p>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-3">
+                            <ul>
+                                <li class="mb-2">
+                                    <a href="#">FAQ</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#">Help Centre</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#">Account</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#">Media Center</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-3">
+                            <ul>
+                                <li class="mb-2">
+                                    <a href="#">Investor Relations</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#">Jobs</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#">Ways to Watch</a>
+                                </li>
+                            
+                                <li class="mb-2">
+                                    <a href="#">Terms of Use</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-3">
+                            <ul>
+                                <li class="mb-2">
+                                    <a href="#">Privacy</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#">Cookie Preferences</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#">Corporate Information</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-3">
+                            <ul>
+                                <li class="mb-2">
+                                    <a href="#">Speed Test</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#">Legal Notices</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#"> Only on Netflix</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="py-5">Netflix India</p>
+                </div>
+
+            </footer>
+
+        </div>
     </div>
-    </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>

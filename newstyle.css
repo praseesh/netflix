@@ -1,0 +1,78 @@
+body{
+    font-family: system-ui;
+}
+header{
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.5 )),
+        url(images/netflixbg.jpg);
+    background-size: cover;
+    background-position: 50%;
+    height:100vh;
+}
+nav img{
+    width: 17%;
+}
+.red-btn {
+    background: rgb(229, 9, 20);
+    color: #fff;
+    border: 0;
+    border-radius: 0.25rem;
+    padding: 5px 17px;
+    font-family: 'Gill Sans MT', sans-serif;
+}    
+
+.red-btn:hover{
+    background: (rgb(187, 6, 15));
+}
+.dropdown{
+    font-family: 'Gill Sans MT', sans-serif;
+}
+.unlimited_para{
+    font-size: 5rem;
+    font-weight: 900;
+}
+.unlimited_para1{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.unlimited_para2{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+form{
+    width: 60%;
+}
+form #floatingInput{
+    color: #fff;
+}
+form .form-control:focus{
+    border-color: #fff;
+    box-shadow: none;
+    border-width:medium;
+}
+form .form-floating>.form-control:focus~label{
+    color: rgba(255, 255, 255, 0.7);
+}
+form .form-floating>.form-control:focus~label::after{
+    background-color: transparent;
+}
+from.form-floating{
+    width: 50%;
+}
+form #floatingInput{
+    background: transparent;
+}
+form label{
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 10px;
+}
+.get-started-btn{
+    height:60px;
+    font-size: 1.5rem;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.get-started-btn::after{
+    content: "\276F";
+    margin-left: 5px;
+}
